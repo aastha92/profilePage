@@ -1,0 +1,345 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <title>profile page</title>
+</head>
+<body>
+
+  <!-- navbar / header -->
+  <!-- <div class="navbar-fixed align-center container navsize"> -->
+        <nav class="nav-wrapper container">
+            <div class="navborder">
+                <a href="#home" class="mynav brand-logo">My Portfolio</a>
+                <a href="" class="mynav sidenav-trigger" data-target="mobile-menu">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a class="mynav" href="#home">Home</a></li>
+                    <li><a class="mynav" href="#projects">Projects</a></li>
+                    <li><a class="mynav" href="#skills">My Skills</a></li>
+                    <li><a class="mynav" href="#aboutme">About Me</a></li>
+                    
+                    <li>
+                        <a href="https://github.com/aastha92" target="_blank" class="mynav tooltipped btn-floating btn-small" data-tooltip="Github">
+                            <i class="fab fa-github icon"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/aastha-sharma-472250172/" target="_blank" class="mynav tooltipped btn-floating btn-small" data-tooltip="Linkdin">
+                            <i class="fab fa-linkedin-in icon"></i>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="sidenav gray-darken-3" id="mobile-menu">
+                    <li><a class="mynav" href="#home">Home</a></li>
+                    <li><a class="mynav" href="#projects">Projects</a></li>
+                    <li><a class="mynav" href="#skills">My Skills</a></li>
+                    <li><a class="mynav" href="#aboutme">About Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    <!-- </div> -->
+
+    <header class="scrollspy container headerbox" id="home">
+        <img src="img/profileimgwithcaption.jpg" alt="" class="responsive-img">
+        <!-- <div class="mainheading col s5 m5 l5 push-s1 push-m1 push-l1">
+            <h1>Aastha Sharma</h1>
+            <h2>Web Developer</h2>
+        </div> -->
+    </header>
+    
+
+  <!-- projects -->
+    <div class="container section scrollspy" id="projects">
+      <div class="center Heading-l hide-on-med-and-down">MY PROJECTS</div>
+      <div class="center Heading-sm hide-on-large-only ">MY PROJECTS</div>
+
+        <div class="row hide-on-med-and-down">
+            <a href="#" class="my-card-link-text">
+                <div class="col l8 offset-l1 card valign-wrapper hoverable my-card-full">
+                    <div class="col l6">
+                        <img src="img/pollingapp1.jpg" class="responsive-img">
+                    </div>
+                    <div class="col l6 card-content-piece">
+                        <span class="card-title my-card-title-style">My Voting App</span>
+                        <p class="my-card-description-style">Simple polling fullstack responsive app. Complete CRUD via REST API funtionality using Express Nodejs and React.</p>
+                    </div>
+                </div>
+                </a>
+        </div>
+
+
+        <div class="row hide-on-med-and-down">
+            <a href="http://www.startupranking.test/" target="_blank" class="my-card-link-text">
+                <div class="col l8 push-l2 offset-l1 card valign-wrapper hoverable my-card-full">
+                    <div class="col l6">
+                        <img src="img/startup2.png" class="responsive-img">
+                    </div>
+                    <div class="col l6 card-content-piece">
+                        <span class="card-title my-card-title-style">Start-up Today</span>
+                        <p class="my-card-description-style">This project tracks web ranking and social media statuses for start-up companies. 
+                            Built with Laravel PHP, MySQL and React.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="row hide-on-med-and-down">
+            <a href="file:///C:/Users/n_pathak/Documents/linkdin/my-calculator/index.html" target="_blank" class="my-card-link-text">
+                <div class="col l8 offset-l1 card valign-wrapper hoverable my-card-full">
+                    <div class="col l6">
+                        <img src="img/calculatorforresponsivity.png" class="responsive-img">
+                    </div>
+                    <div class="col l6 card-content-piece">
+                        <span class="card-title my-card-title-style">Calculator</span>
+                        <p class="my-card-description-style">Simple calculator 
+                            built using html, css and vanilla javascript.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="row hide-on-large-only">
+            <div class="col s10 offset-s1">
+                <div class="card hoverable">
+                <div class="card-image">
+                    <img src="img/pollingapp1.jpg" class="responsive-img">
+                </div>
+                <div class="card-content card-content-smp">
+                    <span class="card-title my-card-title-style-sm">My Voting App</span>
+                    <p class="my-card-description-style-sm">Simple polling fullstack responsive app. Complete CRUD via REST API funtionality using Express Nodejs and React.</p>
+                </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row hide-on-large-only">
+            <a href="http://www.startupranking.test/" target="_blank" class="my-card-link-text">
+                <div class="col s10 offset-s1">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/startup2.png" class="responsive-img">
+                        </div>
+                        <div class="card-content card-content-smp">
+                            <span class="card-title my-card-title-style-sm">Start-up Today</span>
+                            <p class="my-card-description-style-sm">This project tracks web ranking and social media statuses for start-up companies. 
+                                    Built with Laravel PHP, MySQL and React.</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="row hide-on-large-only">
+            <a href="file:///C:/Users/n_pathak/Documents/linkdin/my-calculator/index.html" target="_blank" class="my-card-link-text">
+                <div class="col s10 offset-s1">
+                    <div class="card">
+                    <div class="card-image">
+                        <img src="img/calculatorforresponsivity.png" class="responsive-img">
+                    </div>
+                    <div class="card-content card-content-smp">
+                        <span class="card-title my-card-title-style-sm">Calculator</span>
+                        <p class="my-card-description-style-sm">Simple calculator 
+                                built using html, css and vanilla javascript. </p>
+                    </div>
+                    </div>
+                </div>
+            </a>
+        </div>        
+
+    </div>
+
+  <!-- parallax -->
+  <!-- <div class="parallax-container parallaxImg2 container">
+      <div class="parallax">
+          <img src="img/programming.png" alt="" class="responsive-img">
+      </div>
+  </div> -->
+
+
+  <!-- Skills -->
+  <div class="container section scrollspy" id="skills">
+        <div class="center  Heading-l hide-on-med-and-down">My Skills</div>
+        <div class="center  Heading-sm hide-on-large-only">My Skills</div>
+        
+        <div class="row hide-on-med-and-down">
+            <div class="col s10 push-s1 m5 push-m1 l5 push-l1">
+                <div class="card">
+                    <div class="card-content mycard">
+                        <span class="card-title center cardheading-skills">FRONT-END</span>
+                        <ul>
+                            <div class="row cardtext-skills">
+                                <div class="col s6 l5 push-l1 center">
+                                    <li>Html</li>
+                                    <li>Css</li>
+                                    <li>Javascript</li>
+                                </div>
+                                <div class="col s6 l5 offset-l2 pull-l1 center">
+                                    <li>React</li>
+                                    <li>Bootstrap</li>
+                                    <li>Materialize css</li>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>   
+            </div>
+            <div class="col s10 push-s1 m5 push-m1 l5 offset-l2 pull-l1">
+                <div class="card">
+                    <div class="card-content mycard">
+                        <span class="card-title center cardheading-skills">BACK-END</span>
+                        <ul>
+                            <div class="row cardtext-skills">
+                                <div class="col s6 l5 push-l1 center">
+                                    <li>Php</li>
+                                    <li>Laravel</li>
+                                    <li>Node.js</li>
+                                </div>
+                                <div class="col s6 l5 offset-l2 pull-l1 center">
+                                    <li>Express</li>
+                                    <li>MySql</li>
+                                    <li>Google Cloud</li>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>   
+            </div>
+        </div>
+
+
+
+
+        <div class="row">
+            <div class="col s10 offset-s1 m10 offset-m1 hide-on-large-only">
+                <div class="card">
+                    <div class="card-content mycard">
+                        <span class="card-title center cardheading-skills-sm">FRONT-END</span>
+                        <ul>
+                            <div class="row cardtext-skills-sm">
+                                <div class="col s6 l5 push-l1 center">
+                                    <li>Html</li>
+                                    <li>Css</li>
+                                    <li>Javascript</li>
+                                </div>
+                                <div class="col s6 l5 offset-l2 pull-l1 center">
+                                    <li>React</li>
+                                    <li>Bootstrap</li>
+                                    <li>Materialize css</li>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>   
+            </div>
+        </div>
+
+        <div class="row hide-on-large-only">
+            <div class="col s10 offset-s1">
+                <div class="card">
+                    <div class="card-content mycard">
+                        <span class="card-title center cardheading-skills-sm">BACK-END</span>
+                        <ul>
+                            <div class="row cardtext-skills-sm">
+                                <div class="col s6 l5 push-l1 center">
+                                    <li>Php</li>
+                                    <li>Laravel</li>
+                                    <li>Node.js</li>
+                                </div>
+                                <div class="col s6 l5 offset-l2 pull-l1 center">
+                                    <li>Express</li>
+                                    <li>MySql</li>
+                                    <li>Google Cloud</li>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </div>
+
+
+
+  <!--About me-->
+  
+    <div class="container section scrollspy" id="aboutme">
+        <div class="center  Heading-l hide-on-med-and-down aboutme-heading">About Me</div>
+        <div class="center  Heading-sm hide-on-large-only">About Me</div>
+
+        <div class="row hide-on-med-and-down">
+            <div class="col l3 offset-l1">
+                <img class="responsive-img aboutmeimg hide-on-med-and-down" src="img/aboutMe-jpeg.jpg">
+                <img class="hide-on-large-only abtmesmallscreen" src="img/abtmesmallscreen.jpg" alt="">
+            </div>
+            <div class="col l7">
+                <p class="cardtext">
+                    I am a fullstack web developer looking for an entry level position. I have one year of proffesional experience working on websites using PHP Laravel, MySQL in backend and React in front end. I can also work with node.js and have experience developing and using RESTful API's via Express and Axios. I did my bachelors in electrical engineering and worked in Erricson for one year. About two years ago, I discovered a passion for programming and have been learning and coding since then. I am highly motivated and passionate about my work and am looking to persue a full-time career in web development. I am currently residing and looking for entry level jobs in Austin, Texas, USA.
+                </p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col s10 push-s1 aboutme-text hide-on-large-only">
+                <p class="cardtext-sm">
+                        I am a fullstack web developer looking for an entry level position. I have one year of proffesional experience working on websites using PHP Laravel, MySQL in backend and React in front end. I can also work with node.js and have experience developing and using RESTful API's via Express and Axios. I did my bachelors in electrical engineering and worked in Erricson for one year. About two years ago, I discovered a passion for programming and have been learning and coding since then. I am highly motivated and passionate about my work and am looking to persue a full-time career in web development. I am currently residing and looking for entry level jobs in Austin, Texas, USA.
+                </p>
+            </div>
+        </div>
+    </div>
+  <!-- footer -->
+    <div class="connectbg container section connect-section">
+        <div class="connectbg">
+            <div class="row center hide-on-med-and-down">
+                <div class="card-title cardheading-connect">Connect</div>
+                <div class="row">
+                    <div class="col m12 l12">
+                        <a class="cardtext-connect">Email: aasthasharma092@gmail.com</a>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col m2 l2 offset-l4">
+                        <a href="https://github.com/aastha92" target="_blank" class="cardtext-connect">My Github</a>
+                    </div>
+                    
+                    <div class="col l2">
+                        <a href="https://www.linkedin.com/in/aastha-sharma-472250172/" target="_blank" class="cardtext-connect" >My Linkdin</a>
+                    </div>
+                </div>
+            
+            </div>
+
+            <div class="row center hide-on-large-only connect-list-sm">
+                <div class="row card-title cardheading-connect-sm">Connect</div>
+                <a class=" row cardtext-connect-sm">Email: aasthasharma092@gmail.com</a>
+                <a href="https://github.com/aastha92" target="_blank" class="row cardtext-connect-sm">My Github</a>
+                <a href="https://www.linkedin.com/in/aastha-sharma-472250172/" target="_blank" class="row cardtext-connect-sm" >My Linkdin</a>            
+            </div>
+
+        </div>
+    </div>
+    <div class="footer-copyright myfooter container center">
+        <span class="center">&copy; 2020 Portfolio Page</span>
+    </div>
+
+
+
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>

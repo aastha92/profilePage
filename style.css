@@ -1,0 +1,390 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    background: url('img/tiles-shapes-2617112_1920.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+} 
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    background-color: #f2f2f2;
+}
+
+.card-content-smp {
+    padding: 2vw 4.8vw 5vw 9vw !important;
+}
+
+.mynav{
+    font-size: 1.3vw;
+    color: #5e4941;
+}
+
+.mynav.brand-logo {
+    color: #5e4941;
+    font-size: 1.5rem;
+    margin-left: 2vw;
+}
+
+.mynav.brand-logo:hover {
+    transform: scale(1, 1);
+}
+
+/* .navborder{
+    border: 1px solid #5e4941;
+    height:2vw
+} */
+
+.mynav:hover{
+    transform: scale(1.1, 1.1);
+}
+
+
+
+.icon{
+    background-color: #d1d2d4;
+}
+
+.btn-floating{
+    border: 1px solid white;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+  } 
+
+
+header{
+    /* background: url('img/profileimgwithcaption.jpg');
+    background-size: cover;
+    background-position: center;*/
+    min-height: 50%; 
+}
+
+.mainheading{
+    /* padding-left: 20vw;
+    padding-top: 10vw;
+    position: absolute;
+    top: 10%;
+    left: 1%; 
+     */
+    color: #5e4941;
+    text-shadow: 4px 4px rgb(215, 192, 184);
+    font-size: 4vw;
+    margin-top: 9vw;
+    
+}
+
+.Heading{
+    color: #5e4941;
+    padding-bottom: 2vw;
+    font-size: 7vw;
+}
+
+.Heading-l{
+    color: #5e4941;
+    padding-bottom: 2vw;
+    font-size: 3vw;
+}
+
+.Heading-sm{
+    color: #5e4941;
+    padding-bottom: 2vw;
+    font-size: 7vw;
+}
+
+.projectcard {
+    background-color: #d3d4d6;
+}
+
+.parallaxImg2{
+    max-height: 8vw;
+}
+
+.section{
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+
+/* .cal{
+    border: 1px solid green;
+}
+.strtup{
+    border: 1px solid green;
+} */
+
+
+.projectcard{
+    background-color: #606A74;
+    box-shadow: 1.1px 1.1px 1.1px 1.1px #af9294;
+    padding: 1.2vw 0.5vw 0.5vw 0.5vw !important;
+    /*vertical-align: center !important; */
+}
+
+.projecttitle{
+    text-align: left;
+    line-height: 30% !important;
+}
+
+.projectname{
+    color: white;
+    font-size: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+.projectImage{
+    max-height: -webkit-fill-available;
+    max-width: -webkit-fill-available;
+    max-height: -moz-fill-available;
+    max-width: -moz-fill-available;
+    max-height: fill-available;
+    max-width: fill-available;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imageshadow{
+    box-shadow: 1.1px 1.1px 1.1px 1.1px #af9294;
+}
+
+.projectdescription{
+    font-size: 1.2vw;
+    /* color: #b0a4a4; */
+    color:white;
+}
+
+.cardmod {
+    height: 15vw;
+}
+
+.projectlink {
+    max-width: 80%;
+    padding: 0px !important;
+}
+
+.projectlink:hover{
+    transform: scale(0.98, 0.98);
+}
+
+.bgproject2color{
+    background-color: #d1d2d4;
+}
+
+.mycard{
+    /* background-color: #f2f2f2; */
+    padding-bottom: 0.1vw !important; 
+    background-color: white;
+    box-shadow: 1.1px 1.1px 1.1px 1.1px #af9294;
+}
+
+.cardheading{
+    font-size: 2vw !important; 
+    margin-bottom: 2vw !important; 
+}
+
+
+.cardheading-skills{
+    font-size: 2vw !important; 
+    margin-bottom: 2vw !important; 
+}
+
+
+
+.cardheading-skills-sm{
+    font-size: 6vw !important; 
+    margin-bottom: 3vw !important; 
+}
+
+
+.connect-section {
+    padding-bottom: 0;
+}
+
+.connect-list-sm{
+    margin-bottom:0vw !important;
+}
+
+.cardheading-connect{
+    font-size: 2vw !important; 
+    margin-bottom: 2vw;
+    color: white; 
+}
+
+.cardheading-connect-sm{
+    font-size: 5vw !important; 
+    color: white; 
+}
+
+.cardtext-connect{
+    /* color: #5e4941; */
+    font-size: 1.5vw;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.cardtext-connect-sm{
+    /* color: #5e4941; */
+    font-size: 3.8vw;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.cardtext{
+    /* color: #5e4941; */
+    font-size: 1.1vw;
+}
+
+
+.cardtext-skills{
+    /* color: #5e4941; */
+    font-size: 1.2vw;
+}
+
+.cardtext-skills-sm{
+    /* color: #5e4941; */
+    font-size: 3.4vw;
+}
+
+.cardspace{
+    padding-bottom: 1vw;
+} 
+
+
+
+.aboutme-text {
+    margin-top: 1vw;
+}
+
+
+.aboutmeimg{
+    border-radius: 360px;
+    min-height:200px;
+    box-shadow: 1.1px 1.1px 1.1px 1.1px #af9294;
+    /* border: 1px solid green; */
+    /* width:auto;
+    
+    margin-top:40px;
+    margin-bottom:30px;
+     */
+}
+.abtmesmallscreen{
+    border-radius: 360px;
+    box-shadow: 1.1px 1.1px 1.1px 1.1px #af9294;
+}
+
+.aboutmedescription{
+    /* padding-top: 1vw;  */
+    font-size: 1.1vw;
+}
+
+.connectbg{
+    background-color: #606A74;
+}
+
+
+.myfooter{
+    background-color: #5e4941;
+    color: white;
+    padding-top: 0.75vw;
+    padding-bottom: 0.75vw;
+}
+
+
+.my-card-link-text {
+    color: black !important;
+}
+
+.my-card-image {
+    max-height: -webkit-fill-available;
+    max-width: -webkit-fill-available;
+    max-height: -moz-fill-available;
+    max-width: -moz-fill-available;
+    max-height: fill-available;
+    max-width: fill-available;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.my-card-full {
+    height: 13vw;
+    box-shadow: 1.1px 1.1px 1.1px 1.1px #af9294;
+}
+
+.my-card-full:hover {
+    transform: scale(0.98,0.98);
+}
+
+.my-card-full-sm:hover {
+    transform: scale(0.98,0.98);
+} 
+
+.card-content-piece {
+    vertical-align: middle;
+}
+
+.my-card-description-style{
+    margin-top: 1vw;
+    font-size: 1.1vw;
+}
+
+.my-card-title-style {
+    font-size: 2vw !important;
+}
+
+.my-card-description-style-sm {
+    margin-top: 3vw !important;
+    font-size: 3vw;
+}
+
+.my-card-title-style-sm {
+    font-size: 6vw !important;
+}
+
+.card-content-piece-sm {
+    margin-top:3vw !important ;
+}
+
+.tempb {
+    border: 1px solid green;
+}
+
+nav {
+    position: relative !important;
+    margin-left: 20%;
+}
+
+/* @media screen and (min-width: 700px) {
+    .nav-wrapper{
+        position: fixed;
+        z-index: 2; 
+   }  
+} */
+
+@media screen and (max-width: 670px){
+    header{
+        min-height: 20%;
+    }
+    img{
+        max-width: 100%;
+    }
+   
+}
+@media screen and (max-width: 1024px){
+    header{
+        min-height: 20%;
+    }
+    img{
+        max-width: 100%;
+    }
+} 
+
+
